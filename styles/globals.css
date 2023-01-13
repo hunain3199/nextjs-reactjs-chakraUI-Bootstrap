@@ -94,6 +94,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.container-fluid{
+  background-color: aqua;
+}
+
 
 a {
   color: inherit;
