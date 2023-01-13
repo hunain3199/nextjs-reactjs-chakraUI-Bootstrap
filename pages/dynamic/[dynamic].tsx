@@ -1,16 +1,16 @@
 import { Router, useRouter } from "next/router";
 import { Button} from '@chakra-ui/react';
 
-const dynamic_routes = () => {
+const Dynamic_routes = () => {
     const router = useRouter()
-    const { dynamic } = router.query
+    const { Dynamic } = router.query
     
     return (<>
-    <h2>This is {dynamic} page</h2>
-    <h2>Post: {dynamic}</h2>
+    <h2>This is {Dynamic} page</h2>
+    <h2>Post: {Dynamic}</h2>
 
     <Button colorScheme='blue' variant='solid' onClick={() => router.push('/')}>Go Back To Home Page</Button>
     </>)
 }
 
-export default dynamic_routes
+export default Dynamic_routes
